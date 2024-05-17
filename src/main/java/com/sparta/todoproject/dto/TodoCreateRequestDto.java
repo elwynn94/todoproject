@@ -17,4 +17,5 @@ public class TodoCreateRequestDto {
 
     @NotBlank(message = "비밀번호를 입력해주세요.")
     private Long password;
+
 }
