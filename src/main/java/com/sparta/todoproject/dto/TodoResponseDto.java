@@ -4,11 +4,11 @@ import com.sparta.todoproject.entity.Todo;
 import lombok.Getter;
 @Getter
 public class TodoResponseDto{
-    private Long id;
-    private String title;
-    private String contents;
-    private String username;
-    private String date;
+    private final Long id;
+    private final String title;
+    private final String contents;
+    private final String username;
+    private final String date;
 
     public TodoResponseDto(Todo todo) {
         this.id = todo.getId();
